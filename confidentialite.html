@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité · Agent Pistou</title>
+<style>
+  :root { --fond: #fbfaf7; --texte: #1f2328; --doux: #5b6168; --lien: #1a5fb4; --trait: #e3e0d8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fond: #16181c; --texte: #e8e6e3; --doux: #a3a8ae; --lien: #8ab4f8; --trait: #2c3036; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--texte);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  .date { color: var(--doux); margin: 0 0 24px; }
+  a { color: var(--lien); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--trait);
+           color: var(--doux); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité de l'Agent Pistou</h1>
+  <p class="date">Dernière mise à jour&nbsp;: 14 octobre 2026</p>
+
+  <h2>Qui utilise cette application</h2>
+  <p>Agent Pistou est un outil privé. Il n'est utilisé que par le titulaire de la chaîne
+  YouTube «&nbsp;Pistou et ses amis&nbsp;», pour gérer sa propre chaîne. Personne d'autre ne s'y connecte.</p>
+
+  <h2>Données Google utilisées</h2>
+  <p>Avec l'autorisation du titulaire, l'application accède à sa chaîne YouTube pour&nbsp;:</p>
+  <ul>
+    <li>mettre en ligne, programmer, modifier ou repasser en privé les vidéos de la chaîne&nbsp;;</li>
+    <li>les ajouter aux playlists de la chaîne et appliquer leurs miniatures&nbsp;;</li>
+    <li>lire les statistiques de la chaîne et de ses vidéos (vues, durée de visionnage,
+    nombre d'abonnés) pour choisir les heures de publication et rédiger un rapport chaque
+    semaine.</li>
+  </ul>
+  <p>Ces statistiques sont des totaux&nbsp;: elles ne concernent aucune personne en particulier.
+  L'application n'accède aux données d'aucun autre compte, ne lit pas les commentaires et ne
+  collecte aucune information sur les personnes qui regardent les vidéos.</p>
+
+  <h2>Conservation</h2>
+  <p>Les identifiants des vidéos, leurs statuts et leurs statistiques sont conservés dans
+  un espace privé appartenant au titulaire. L'autorisation d'accès à YouTube y est stockée
+  sous forme chiffrée, jamais en clair.</p>
+
+  <h2>Partage</h2>
+  <p>Les données ne sont ni vendues, ni louées, ni utilisées à des fins publicitaires.
+  Elles ne sont transmises qu'aux services qui servent à produire les vidéos et les
+  rapports du titulaire&nbsp;: le service d'intelligence artificielle qui analyse ces
+  statistiques et rédige le rapport de la semaine (Claude, d'Anthropic), et la messagerie
+  privée par laquelle le titulaire reçoit ses résumés (Telegram).</p>
+
+  <h2>Enfants</h2>
+  <p>La chaîne s'adresse aux enfants et ses vidéos sont déclarées «&nbsp;conçues pour les
+  enfants&nbsp;». L'application ne collecte aucune donnée sur les enfants qui les regardent&nbsp;:
+  elle ne lit que des totaux, comme le nombre de vues.</p>
+
+  <h2>Retirer l'accès</h2>
+  <p>Le titulaire peut retirer à tout moment l'accès de l'application à son compte depuis
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  Les données conservées peuvent alors être supprimées.</p>
+
+  <h2>Services de YouTube et de Google</h2>
+  <p>Agent Pistou utilise les services d'API YouTube. Leur utilisation est soumise aux
+  <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a> et aux
+  <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a>.</p>
+
+  <footer><a href="index.html">Agent Pistou</a></footer>
+</main>
+</body>
+</html>
